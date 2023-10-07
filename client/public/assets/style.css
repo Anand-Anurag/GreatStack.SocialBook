@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    font-family: 'Roboto';
+}
+
+body {
+    min-height: 100vh;
+}
+
+input:focus {
+    outline: none;
+}
+
+ul {
+    list-style: none;
+}
+
+button {
+    border: none;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 0.2rem;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+.App {
+    margin: 0;
+    padding: 0;
+}

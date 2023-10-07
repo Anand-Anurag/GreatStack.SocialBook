@@ -1,0 +1,6 @@
+.feed{
+    flex: 6;
+    overflow: hidden;
+    overflow-y: scroll;
+    height: calc(100vh - 4rem);
+}

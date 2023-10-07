@@ -1,0 +1,81 @@
+.post {
+    background-color: white;
+    padding: 1rem;
+    margin: 0.5rem;
+    border-radius: 0.25rem;
+    -webkit-box-shadow: 0 1px 7px 0 rgba(0, 0, 0, 0.37);
+    box-shadow: 0 1px 7px 0 rgba(0, 0, 0, 0.37);
+}
+
+.postTop{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.5rem;
+}
+
+.postTopImg {
+    height: 2.2rem;
+    width: 2.2rem;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.postTopLeft {
+    display: flex;
+    align-items: center;
+}
+
+.postTopContainer {
+    margin-left: 1rem;
+}
+
+.postUsername {
+    font-weight: 500;
+    font-size: 0.9rem;
+    display: block;
+}
+
+.postDate {
+    font-weight: 300;
+    font-size: x-small;
+    color: grey;
+}
+
+.postText {
+    color: rgb(75, 75, 75);
+    font-size: small;
+}
+
+.postImg {
+    margin-top: 1rem;;
+    width: 100%;
+}
+
+.shareLogo {
+    transform: scaleX(-1);
+}
+
+.postBottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0.5rem 0 -0.25rem 0;
+}
+
+.postBottomLeft {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 50%;
+}
+
+.postBottomImg {
+    height: 1.5rem;
+    width: 1.5rem;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.likeLogo, .commentLogo, .shareLogo{
+    cursor: pointer;
+}

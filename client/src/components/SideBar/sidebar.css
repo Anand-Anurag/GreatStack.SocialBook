@@ -1,0 +1,72 @@
+.sidebar{
+    flex: 3;
+    margin-bottom: 2rem;
+    overflow: hidden;
+    overflow-y: scroll;
+    height: calc(100vh - 4rem);
+    position: static;
+}
+.sidebarWrapper{
+    margin-bottom: 1.25rem;
+}
+.sidebarList{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.sidebarListItem{
+    display: flex;
+    align-items: center;
+    margin: 1.5rem 0 1.5rem 1.5rem;
+}
+
+.sidebarListItemImg{
+    height: 1.1rem;
+}
+
+.sidebarListItemText{
+    margin-left: 1rem;
+    color: rgb(50, 50, 50);
+    font-weight: 500;
+    font-size: small;
+}
+
+.sidebarButton{
+    border: none;
+    cursor: pointer;
+    background-color: lightgray;
+    color: blue;
+    margin-left: 1.3rem;
+}
+
+.sidebarHr{
+    margin: 1rem;
+}
+
+.sidebarShortcutsTitle {
+    color: rgb(75, 75, 75);
+    margin-left: 1.25rem;
+    font-weight: 800;
+    font-size: small;
+}
+
+.sidebarShortcuts{
+    margin-left: 1rem;
+}
+
+.sidebarShortcut {
+    margin-bottom: 0.75rem;
+}
+
+.sidebarShortcutText{
+    margin-left: 1rem;
+    font-size: small;
+}
+
+.sidebarShortcutImg{
+    height: 2.5rem;
+    width: 2.5rem;
+    border-radius: 0.25rem;
+    transform: translateY(40%);
+}

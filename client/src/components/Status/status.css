@@ -1,0 +1,67 @@
+.statusWrapper {
+    margin: 0.5rem;
+    border-radius: 0.25rem;
+    overflow: hidden;
+    overflow-x: scroll;
+    height: 10rem;
+    display: flex;
+    scroll-behavior: smooth;
+}
+
+.statusWrapper::-webkit-scrollbar {
+    display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.statusWrapper {
+    -ms-overflow-style: none;
+    /* IE and Edge */
+    scrollbar-width: none;
+    /* Firefox */
+}
+.stories {
+    position: relative;
+}
+
+.statusImg {
+    height: 10rem;
+    width: 6rem;
+    object-fit: cover;
+    border-radius: 0.5rem;
+    padding: 0 0.25rem;
+}
+
+.statusProfileImg {
+    height: 1.5rem;
+    width: 1.5rem;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 0.2rem solid blue;
+    position: absolute;
+    top: 0.5rem;
+    left: 0.75rem;
+}
+
+.statusName {
+    font-size: small;
+    color: white;
+    position: absolute;
+    bottom: 0.5rem;
+    left: 0.75rem;
+    z-index: 1;
+}
+
+.newStatus {
+    z-index: 2;
+    background: white;
+    color: blue;
+    position: absolute;
+    bottom: 0.25rem;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 50%;
+}
+
+#statusInput {
+    display: none;
+}

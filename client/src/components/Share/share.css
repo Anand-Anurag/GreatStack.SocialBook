@@ -1,0 +1,97 @@
+.share{
+    background-color: white;
+    padding: 1rem;
+    margin: 1rem 0.5rem;
+    border-radius: 0.25rem;
+    -webkit-box-shadow: 0 1px 7px 0 rgba(0,0,0,0.37);
+    box-shadow: 0 1px 7px 0 rgba(0,0,0,0.37);
+}
+
+.shareProfile {
+    height: 2.5rem;
+    width: 2.5rem;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.shareProfileContainer {
+    display: flex;
+    font-size: x-small;
+}
+
+.shareDetails {
+    margin-left: 1rem;;
+    pointer-events: none;
+}
+
+.shareProfileText {
+    font-weight: 500;
+    font-size: medium;
+    display: block;
+    margin-bottom: -0.5rem;
+}
+
+.shareProfileOption {
+    transform: translateY(0.5rem);
+}
+
+.shareInput {
+    width: 95%;
+    height: 3rem;
+    margin: 0 1rem;
+    border: none;
+    display: block;
+}
+
+.shareHr {
+    margin: 1.5rem;
+    width: calc(100% - 3rem);
+}
+
+.shareOptions {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    position: relative;
+}
+
+.shareOption {
+    font-size: small;
+    margin-right: 5rem;
+}
+
+.shareOptionText {
+    position: absolute;
+    margin: 0.25rem;
+}
+
+.shareButton{
+    border: none;
+    background-color: green;
+    color: white;
+    font-weight: 700;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
+
+#photosNvideos{
+    display: none;
+}
+
+.shareImgContainer{
+    text-align: center;
+    position: relative;
+}
+
+.shareImg {
+    width: 100%;
+    object-fit: cover;
+}
+
+.cancelShareImg{
+    position: absolute;
+    top: 0;
+    right: 0;
+    opacity: 0.75;
+}

@@ -1,0 +1,81 @@
+.register {
+    background: lightgrey;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap-reverse;
+}
+
+.regLogo {
+    object-fit: cover;
+    width: 40%;
+    margin-bottom: 1rem;
+}
+
+.regText {
+    font-size: 1.6rem;
+    color: rgb(40, 40, 40);
+}
+
+.regInputs {
+    background: white;
+    height: 21rem;
+    width: 23rem;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 0.25rem;
+    -webkit-box-shadow: 0 1px 7px 0 rgba(0, 0, 0, 0.37);
+    box-shadow: 0 1px 7px 0 rgba(0, 0, 0, 0.37);
+}
+
+.regInputs>input {
+    width: 90%;
+    margin-top: 1rem;
+    padding: 0.9rem;
+    font-size: medium;
+    color: rgb(65, 65, 65);
+}
+
+.UserName {
+    display: flex;
+    justify-content: space-between;
+}
+
+.UserName>input {
+    width: 39%;
+    margin-top: 1rem;
+    padding: 0.9rem;
+    font-size: medium;
+    color: rgb(65, 65, 65);
+}
+
+.regButton {
+    background: green;
+    color: white;
+    font-size: larger;
+    font-weight: 540;
+    width: 50%;
+    height: 12%;
+    margin-top: auto;
+    margin-bottom: 1rem;
+    cursor: pointer;
+}
+
+.regButton:hover {
+    background: rgb(0, 160, 0);
+}
+
+.description {
+    font-size: 0.85rem;
+    padding: 1rem 0;
+    text-align: center;
+    color: rgb(65, 65, 65);
+}
+
+.description>a {
+    margin: 1rem 0;
+    color: blue;
+}

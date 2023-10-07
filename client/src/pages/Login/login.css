@@ -1,0 +1,80 @@
+.login {
+    background: lightgrey;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap-reverse;
+}
+
+.loginLogo {
+    object-fit: cover;
+    width: 40%;
+    margin-bottom: 1rem;
+}
+
+.loginText {
+    font-size: 1.6rem;
+    color: rgb(40, 40, 40);
+}
+
+.loginInputs {
+    background: white;
+    height: 20rem;
+    width: 23rem;
+    margin: 0;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 0.25rem;
+    -webkit-box-shadow: 0 1px 7px 0 rgba(0, 0, 0, 0.37);
+    box-shadow: 0 1px 7px 0 rgba(0, 0, 0, 0.37);
+}
+
+.loginInputs>input {
+    width: 90%;
+    height: 0;
+    margin-top: 1rem;
+    padding: 1.5rem 1rem;
+    font-size: medium;
+}
+
+.loginInputs>button {
+    background: blue !important;
+    color: white;
+    font-size: larger;
+    font-weight: 540;
+    width: 100%;
+    height: 16%;
+    margin-top: 1rem;
+    padding: 1rem 0;
+    cursor: pointer;
+}
+
+.loginInputs>a {
+    margin: 1rem 0;
+    color: blue;
+    font-size: medium;
+}
+
+.SignUpButton {
+    padding: 1rem 3rem;
+    background: green;
+    color: white !important;
+    border-radius: 0.25rem;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.loginButton:hover {
+    background: rgb(35, 35, 255) !important;
+}
+
+.loginButton:disabled {
+    cursor: not-allowed;
+}
+
+.SignUpButton:hover {
+    background: rgb(0, 150, 0);
+}

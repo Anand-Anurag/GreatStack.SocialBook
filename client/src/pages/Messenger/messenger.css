@@ -1,0 +1,142 @@
+.messenger {
+    height: calc(100vh - 4rem);
+    display: flex;
+    background: rgb(90, 170, 255);
+}
+
+.recentChats {
+    flex: 3;
+    padding: 1rem;
+}
+
+.recentChatList {
+    height: calc(100vh - 12rem);
+    overflow: scroll;
+    cursor: pointer;
+    background: white;
+    margin-top: 1rem;
+    padding: 0 1rem;
+    border-radius: 1rem;
+}
+
+.chatBox {
+    margin: 1rem 0;
+    margin-bottom: 0.65rem;
+    flex: 6;
+    background: white;
+    border-radius: 1rem;
+    -webkit-box-shadow: 0 1px 7px 0 rgba(0, 0, 0, 0.37);
+    box-shadow: 0 1px 7px 0 rgba(0, 0, 0, 0.37);
+    overflow: hidden;
+}
+
+.onlineChats {
+    flex: 3;
+    padding: 1rem;
+}
+
+.onlineFriends {
+    background: white;
+    margin-top: 1rem;
+    padding-top: 0.5rem;
+    border-radius: 1rem;
+    height: calc(100vh - 8.5rem);
+    overflow: scroll;
+    cursor: pointer;
+}
+
+.recentChatSearch {
+    position: sticky;
+    top: -1rem;
+    background: rgb(90, 170, 255);
+    padding: 1rem 0;
+}
+
+.recentChatSearchInput {
+    padding: 0.5rem 1rem;
+    width: 90%;
+    border-radius: 1rem;
+    border: none;
+}
+
+.recentChatSearchIcon {
+    position: absolute;
+    top: 1rem;
+    right: 0.25rem;
+    margin-top: 0.25rem;
+}
+
+.chatBoxTop {
+    height: 1rem;
+    padding: 1rem;
+    width: 100%;
+    border-bottom: 1px solid black;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+}
+
+.chatBoxTopName {
+    font-size: medium;
+    margin-left: 1rem;
+}
+
+.chatBoxTopImg{
+    object-fit: cover;
+    height: 2rem;
+    width: 2rem;
+    border-radius: 50%;
+}
+
+.chatBoxInput {
+    margin-top: auto;
+    position: relative;
+    border-top: 1px solid #000;
+}
+
+.chatBoxChats {
+    height: calc(100% - 6rem);
+    overflow: scroll;
+    scroll-behavior: smooth;
+}
+
+.chatBoxBottom {
+    margin-top: auto;
+    width: 100%;
+}
+
+.chatInput {
+    font-size: medium;
+    padding: 0.75rem 1.5rem;
+    width: 85%;
+    height: fit-content;
+    border: none;
+}
+
+.sendButtonIcon {
+    color: white;
+    background: blue;
+    position: absolute;
+    top: 0.2rem;
+    right: 0.5rem;
+    border-radius: 1rem;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+}
+
+.messengerTitle {
+    padding: 0.25rem;
+    color: white;
+    font-size: large;
+}
+
+.noChats {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: x-large;
+    letter-spacing: 0.25rem;
+    color: gray;
+}

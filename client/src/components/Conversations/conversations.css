@@ -1,0 +1,17 @@
+.conversation {
+    display: flex;
+    align-items: center;
+    padding: 0.5rem 0;
+    border-top: 1px solid lightgray;
+}
+
+.conversationImg {
+    object-fit: cover;
+    border-radius: 50%;
+    height: 2rem;
+    width: 2rem;
+}
+
+.conversationName {
+    margin-left: 1rem;
+}
